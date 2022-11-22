@@ -67,7 +67,7 @@ class _VitalMeasurementsState extends State<VitalMeasurements> {
                     ),
                     child: Center(
                       child: Text(
-                        "Height : " + widget.height.toStringAsFixed(1) + " cm ",
+                        "Height : " + (widget.height / 100).toStringAsFixed(1) + " m ",
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w400,
                           color: Colors.black,
@@ -201,7 +201,7 @@ class _VitalMeasurementsState extends State<VitalMeasurements> {
                             ),
                             children: <TextSpan>[
                               TextSpan(
-                                text: '\n ' + widget.spo2.toString(),
+                                text: '\n ' + widget.spo2.toString() + "%",
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
@@ -233,7 +233,7 @@ class _VitalMeasurementsState extends State<VitalMeasurements> {
                             ),
                             children: <TextSpan>[
                               TextSpan(
-                                text: '\n ' + widget.bodyTemp.toString(),
+                                text: '\n ' + widget.bodyTemp.toString() + " \u00b0" + "F",
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
@@ -265,7 +265,7 @@ class _VitalMeasurementsState extends State<VitalMeasurements> {
                             ),
                             children: <TextSpan>[
                               TextSpan(
-                                text: '\n ' + widget.roomTemp.toString(),
+                                text: '\n ' + widget.roomTemp.toString() + " \u00b0" + "F",
                                 style: GoogleFonts.poppins(
                                   fontWeight: FontWeight.w500,
                                   fontSize: 18,
