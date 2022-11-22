@@ -60606,7 +60606,7 @@ A.yR.prototype={
 aJ(){return new A.Q2(B.o)}}
 A.Q2.prototype={
 a0(a4,a5){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=this,e=null,d="BMI - Body Mass Index",c=4291886079,b=4283058505,a=a5.ae(t.w).f,a0=A.cl(e,16,e),a1=A.dr(d,e,e,A.cH(B.j,18,B.l),e,e,e),a2=A.cl(e,20,e),a3=A.dU(12)
-a3=A.bs(e,A.jo(A.dr("Height : "+B.c.S(f.a.c,1)+" cm ",e,e,A.cH(B.n,e,B.l),e,e,e),e,e),e,new A.c5(new A.C(4294500029),e,e,a3,e,e,B.G),e,e,e,new A.au(16,20,16,20),e)
+a3=A.bs(e,A.jo(A.dr("Height : "+B.c.S(f.a.c/100,1)+" m ",e,e,A.cH(B.n,e,B.l),e,e,e),e,e),e,new A.c5(new A.C(4294500029),e,e,a3,e,e,B.G),e,e,e,new A.au(16,20,16,20),e)
 s=A.cl(e,10,e)
 r=A.dU(12)
 q=t.p
@@ -60626,17 +60626,17 @@ a3=A.dU(12)
 r=A.cH(B.aX,18,B.aH)
 l=B.c.h(f.a.e)
 k=t.Ne
-a3=A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+l)],k),r,"SPO2"),B.bd,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,a3,e,e,B.G),e,e,e,new A.au(30,16,30,16),e)
+a3=A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+l+"%")],k),r,"SPO2"),B.bd,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,a3,e,e,B.G),e,e,e,new A.au(30,16,30,16),e)
 r=A.cl(e,25,e)
 l=A.dU(12)
 j=A.cH(B.aX,18,B.aH)
 i=B.c.h(f.a.f)
-l=A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+i)],k),j,"BODY\nTemperature"),B.b0,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,l,e,e,B.G),e,e,e,new A.au(10,16,10,16),e)
+l=A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+i+" \xb0F")],k),j,"BODY\nTemperature"),B.b0,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,l,e,e,B.G),e,e,e,new A.au(10,16,10,16),e)
 j=A.cl(e,25,e)
 i=A.dU(12)
 h=A.cH(B.aX,18,B.aH)
 g=B.c.h(f.a.r)
-return A.bs(e,A.eN(A.b([a0,a1,a2,s,m,new A.jW(B.zS,new A.Ef(2,new A.C(b),e),e),n,A.fu(A.b([A.eN(A.b([o,p,a3,r,l,j,A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+g)],k),h,"ROOM\nTemperature"),B.b0,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,i,e,e,B.G),e,e,e,new A.au(10,16,10,16),e)],q),B.aD,B.M),A.Fi("assets/man.png",200)],q),B.aD,B.M,B.a5)],q),B.aD,B.M),e,new A.c5(new A.C(4281348144),e,e,new A.cF(new A.am(14,14),B.O,new A.am(14,14),B.O),e,e,B.G),a.a.b,e,e,new A.au(16,16,16,16),420)}}
+return A.bs(e,A.eN(A.b([a0,a1,a2,s,m,new A.jW(B.zS,new A.Ef(2,new A.C(b),e),e),n,A.fu(A.b([A.eN(A.b([o,p,a3,r,l,j,A.bs(e,A.jo(A.Id(e,e,B.bB,!0,e,A.fA(A.b([A.fA(e,A.cH(B.n,18,B.J),"\n "+g+" \xb0F")],k),h,"ROOM\nTemperature"),B.b0,e,e,1,B.a6),e,e),e,new A.c5(B.j,e,e,i,e,e,B.G),e,e,e,new A.au(10,16,10,16),e)],q),B.aD,B.M),A.Fi("assets/man.png",200)],q),B.aD,B.M,B.a5)],q),B.aD,B.M),e,new A.c5(new A.C(4281348144),e,e,new A.cF(new A.am(14,14),B.O,new A.am(14,14),B.O),e,e,B.G),a.a.b,e,e,new A.au(16,16,16,16),420)}}
 A.Ge.prototype={
 a0(a,b){return new A.wf(new A.uR(null),"Flutter Demo",A.ajH(null,B.rJ),!1,null)}}
 A.uR.prototype={
